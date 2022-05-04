@@ -28,7 +28,7 @@
         }
 
         public function read_data()
-        {
+        {  
             $this->name = $_POST['name'];
             $this->email = $_POST['email'];
             $this->contact = $_POST['contact'];
